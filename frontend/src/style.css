@@ -1,0 +1,27 @@
+/* src/style.css */
+:root {
+    --app-primary-color: #3498db; /* Default primary color */
+    --app-secondary-color: #2ecc71; /* Default secondary color */
+}
+
+body {
+    background-color: var(--app-secondary-color);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: var(--app-primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: var(--app-secondary-color);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

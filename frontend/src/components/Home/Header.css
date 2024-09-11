@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--app-primary-color, #333);
+  color: white;
+}
+
+.edit-btn, .logout-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-btn {
+  background-color: #dc3545; /* Red color for logout */
+}
+
+.logout-btn:hover, .edit-btn:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  max-height: 100px; /* Adjust logo size */
+  margin-right: 30px;
+}
